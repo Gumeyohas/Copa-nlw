@@ -6,7 +6,7 @@ import  ShortUniqueId  from "short-unique-id";
 
 const prisma = new PrismaClient ({
     log: ['query'],
-})
+ })
 
 async function bootstrap(){
     const fastify = Fastify({ 
